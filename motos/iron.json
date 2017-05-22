@@ -1,0 +1,24 @@
+    {
+        "id": "03", 
+        "nombre":"Iron 883",
+        "model": "2017", 
+        "descripcion":"Aggressive throwback styling taken to a place altogether new. No need to shine this machine. Just get on and tear up the nearest street.",
+        "images": [
+            "img/motos/03_01.jpg",
+            "img/motos/03_02.jpg",
+            "img/motos/03_03.jpg"
+        ], 
+        "motor":{
+            "tipo":"Air-cooled, Evolution®",
+            "marchas":"5",
+            "transmision":"Manual",
+            "arranque":"Mechanic"
+        },
+        "fabricante":{
+            "nombre":"Harley Davidson",
+            "pais":"USA",
+        },
+        "cilindraje":"1250cc",
+        "tamaño":"85.8 in.",
+        "peso":"562 lb."
+    }

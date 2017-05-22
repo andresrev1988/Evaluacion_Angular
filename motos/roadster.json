@@ -1,0 +1,24 @@
+{
+        "id": "02", 
+        "nombre":"Roadster",
+        "model": "2017", 
+        "descripcion":"The new Roadster™ motorcycle combines stoplight-to-stoplight power, agility and garage-built custom style to shatter every mold.",
+        "images": [
+            "img/motos/02_01.jpg",
+            "img/motos/02_02.jpg",
+            "img/motos/02_03.jpg"
+        ],
+        "motor":{
+            "tipo":"Air-cooled, Evolution®",
+            "marchas":"5",
+            "transmision":"Manual",
+            "arranque":"Mechanic"
+        },
+        "fabricante":{
+            "nombre":"Harley Davidson",
+            "pais":"USA",
+        },
+        "cilindraje":"1250cc",
+        "tamaño":"86 in.",
+        "peso":"568 lb."
+}

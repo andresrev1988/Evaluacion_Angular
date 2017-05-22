@@ -1,0 +1,25 @@
+[
+    {
+        "id": "01", 
+        "nombre":"V-Rod Muscle",
+        "model": "2017", 
+        "descripcion":"It sends massive horsepower and low-end torque directly to your adrenal gland when you unleash the engine. The V-Rod Muscle® motorcycle doesn't stutter when it makes its statement.",
+        "images": [
+            "img/motos/01_01.jpg",
+            "img/motos/01_02.jpg",
+            "img/motos/01_03.jpg"
+        ],
+        "motor":{
+            "tipo":"Liquid-cooled, Revolution®, 60° V-Twin",
+            "marchas":"5",
+            "transmision":"Manual",
+            "arranque":"Mechanic"
+        },
+        "fabricante":{
+            "nombre":"Harley Davidson",
+            "pais":"USA",
+        },
+        "cilindraje":"1250cc",
+        "tamaño":"94.9 in.",
+        "peso":"673 lb."
+    }

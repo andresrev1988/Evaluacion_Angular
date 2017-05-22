@@ -1,0 +1,24 @@
+[
+
+    {
+        "model": 2017, 
+        "id": "01", 
+        "imageUrl": "img/motos/01_01.jpg",
+        "name": "V-Rod Muscle", 
+        "snippet": "It sends massive horsepower and low-end torque directly to your adrenal gland when you unleash the engine. The V-Rod Muscle® motorcycle doesn't stutter when it makes its statement."
+    },
+    {
+        "model": 2017, 
+        "id": "02", 
+        "imageUrl": "img/motos/02_01.jpg",
+        "name": "Roadster", 
+        "snippet": "The new Roadster™ motorcycle combines stoplight-to-stoplight power, agility and garage-built custom style to shatter every mold."
+    },
+    {
+        "model": 2017, 
+        "id": "03", 
+        "imageUrl": "img/motos/03_01.jpg",
+        "name": "Iron 883", 
+        "snippet": "Aggressive throwback styling taken to a place altogether new. No need to shine this machine. Just get on and tear up the nearest street."
+    }
+]
