@@ -1,0 +1,35 @@
+<div class="blog-header">
+	<h1 class="blog-title">Motos Harley Davidson</h1>
+	<p class="blog-description">Blog Oficial</p>	
+</div>
+<div class='row'>
+	<div class='s7 m7 col blog-main'>
+		<ul class="motos">
+			<li ng-repeat="moto in motos | filter:query | orderBy:orderProp" class="moto-listing">
+			 	<a href="#/motos/{{moto.id}}" ><img ng-src="{{moto.imageUrl}}" class="	responsive-img"></a>
+          		<a href="#/motos/{{moto.id}}">{{moto.name}}</a>
+          		<p>{{moto.snippet}}</p>	
+			</li>
+		</ul>
+	</div>
+	<div class='s5 m5 col blog-sidebar'>		
+		<div class="input-field">		
+			<label for="name" class="s2 m2 col">Filtro</label>				
+			<input type="text" class="s10 m10 col" ng-model="query">			
+		</div>							
+		<div class="input-field col s12 m12">
+    		<select ng-model="orderProp">
+      			<option value="" disabled selected>Seleccione una Opción</option>
+      			<option value="name">Alfabetico</option>
+      			<option value="age">Nuevo</option>      			
+    		</select>
+    		<label>Organizar por:</label>
+  		</div>
+	</div>	
+</div>
+
+<script type="text/javascript">
+        $(document).ready(function() {
+            $('select').material_select();
+        });
+</script> 
