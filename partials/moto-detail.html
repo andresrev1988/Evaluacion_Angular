@@ -3,14 +3,16 @@
 	<p class="blog-description">{{moto.descripcion}}</p>
 </div>
 <div class="row">
-	<div class= "s9 m9 col blog-main">				
+	<div class= "s9 m9 col blog-main">	  
+    <div class="moto-images">
       	<img ng-src="{{img}}"
-           	class="responsive-img"
+           	class="motos responsive-img"
            	ng-repeat="img in moto.images"
-           	ng-class="{hide: mainImageUrl!=img}">    	
-	</div>	
+           	ng-class="{hide: mainImageUrl!=img}">    	    
+	  </div>	  
+  </div>   
 	<div class="s3 m3 col blog-sidebar">
-		<ul>
+		<ul >
 			<li ng-repeat="img in moto.images">
 				<img src="{{img}}" ng-click="setImage(img)" class="responsive-img thump">							
 			</li>

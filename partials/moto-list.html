@@ -5,7 +5,7 @@
 <div class='row'>
 	<div class='s7 m7 col blog-main'>
 		<ul class="motos">
-			<li ng-repeat="moto in motos | filter:query | orderBy:orderProp" class="moto-listing">
+			<li ng-repeat="moto in motos | filter:query | orderBy:orderProp">
 			 	<a href="#/motos/{{moto.id}}" ><img ng-src="{{moto.imageUrl}}" class="	responsive-img"></a>
           		<a href="#/motos/{{moto.id}}">{{moto.name}}</a>
           		<p>{{moto.snippet}}</p>	
@@ -18,10 +18,9 @@
 			<input type="text" class="s10 m10 col" ng-model="query">			
 		</div>							
 		<div class="input-field col s12 m12">
-    		<select ng-model="orderProp">
-      			<option value="" disabled selected>Seleccione una Opción</option>
-      			<option value="name">Alfabetico</option>
-      			<option value="modelo">Modelo</option>      			
+    		<select ng-model="orderProp">      			
+    			<option value="modelo">Modelo</option>      			
+      			<option value="name">Alfabetico</option>      			
     		</select>
     		<label>Organizar por:</label>
   		</div>
