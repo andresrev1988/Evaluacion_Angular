@@ -1,4 +1,4 @@
-'use strict';
+ 'use strict';
 var motoApp = angular.module('motoApp',[
 'ngRoute',
 'motoAppControllers',
@@ -11,7 +11,7 @@ motoApp.config(['$routeProvider',
 				templateUrl: 'partials/moto-list.html',
 				controller: 'ListaMotosCtrl'
 			}).
-			when('/motos/motoId',{
+			when('/motos/:motoId',{				
 				templateUrl: 'partials/moto-detail.html',
 				controller: 'DetalleMotoCtrl'
 			}).

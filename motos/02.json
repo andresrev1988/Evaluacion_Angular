@@ -16,9 +16,9 @@
         },
         "fabricante":{
             "nombre":"Harley Davidson",
-            "pais":"USA",
+            "pais":"USA"
         },
         "cilindraje":"1250cc",
-        "tamaño":"86 in.",
+        "tamano":"86 in.",
         "peso":"568 lb."
 }
